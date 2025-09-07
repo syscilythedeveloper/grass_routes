@@ -18,7 +18,7 @@ export default function Algolia() {
       >
         <Configure hitsPerPage={6} />
         <SearchBox
-          placeholder="Search for venues to link up..."
+          placeholder="Search for coffee shops..."
           classNames={{
             root: "relative mx-2 pl-5 pr-5 w-full",
             input:
