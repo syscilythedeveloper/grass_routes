@@ -16,15 +16,22 @@ export default function Algolia() {
         searchClient={searchClient}
         indexName={ALGOLIA_INDEX_NAME}
       >
-        <Configure hitsPerPage={3} />
+        <Configure hitsPerPage={6} />
         <SearchBox
           placeholder="Search for venues to link up..."
           classNames={{
-            root: "relative",
+            root: "relative mx-2 pl-5 pr-5 w-full",
             input:
-              "border border-gray-300 rounded-full py-2 pl-10 pr-4 w-full mb-5",
-            submit: "absolute right-2 top-1/2 transform -translate-y-1/2",
+              "border border-gray-300 rounded-full py-2 pl-10 w-full mb-2 mt-2",
+            submit:
+              "absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none",
           }}
+          submitIconComponent={({ classNames }) => (
+            <span className={`${classNames.submitIcon} text-gray-500 pl-5`}>
+              🔍
+            </span>
+          )}
+          resetIconComponent={() => null}
         />
         <HitGrid />
         <div className="mt-10 flex justify-center">
