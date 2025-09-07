@@ -3,8 +3,9 @@
 import React from "react";
 
 export default function HitCard({ hit }: { hit: any }) {
-  const handleCreateLinkUp = () => {
-    console.log(`Create Link-Up for ${hit.objectID}`);
+  const handleCoffeeMeetUp = () => {
+    console.log(`Create Meet-Up for ${hit.objectID}`);
+    console.log(`Hit details:`, hit);
   };
 
   const imageUrl = hit.photos?.[0];
@@ -92,12 +93,12 @@ export default function HitCard({ hit }: { hit: any }) {
         {/* CTA Button */}
         <div className="flex justify-end pt-4">
           <button
-            onClick={handleCreateLinkUp}
+            onClick={handleCoffeeMeetUp}
             disabled={false}
             aria-label={`Create Link-Up for ${hit.name}`}
             className="bg-green-600 text-white hover:shadow-lg hover:scale-105 active:scale-95 rounded-2xl px-5 py-2"
           >
-            Create Link-Up
+            Create MeetUp
           </button>
         </div>
       </div>
