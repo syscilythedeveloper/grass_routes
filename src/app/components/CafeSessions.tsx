@@ -36,7 +36,7 @@ const CafeSessions = () => {
               className="pl-1 basis-1/3"
             >
               <div className="p-1 h-full">
-                <CafeSessionCard session={session} />
+                <CafeSessionCard coffeeSession={session} />
               </div>
             </CarouselItem>
           ))}

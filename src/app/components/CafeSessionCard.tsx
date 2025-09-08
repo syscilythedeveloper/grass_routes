@@ -40,21 +40,28 @@ function formatTimeRange(start: string, end: string) {
   return `${toLabel(start)} – ${toLabel(end)}`;
 }
 
-export function CafeSessionCard({ session }: { session: CafeSession }) {
+export function CafeSessionCard({
+  coffeeSession,
+}: {
+  coffeeSession: CafeSession;
+}) {
   const [showForm, setShowForm] = React.useState(false);
-  const dateLabel = formatDateLabel(session.date);
-  const timeLabel = formatTimeRange(session.startTime, session.endTime);
-  const attendees = Array.isArray(session.attendees)
-    ? session.attendees
-    : JSON.parse(session.attendees);
+  const dateLabel = formatDateLabel(coffeeSession.date);
+  const timeLabel = formatTimeRange(
+    coffeeSession.startTime,
+    coffeeSession.endTime
+  );
+  const attendees = Array.isArray(coffeeSession.attendees)
+    ? coffeeSession.attendees
+    : JSON.parse(coffeeSession.attendees);
 
   return (
     <article className="relative overflow-hidden rounded-2xl shadow-md border border-gray-200">
       {/* Background image (blurred) */}
       <div className="relative h-64">
         <img
-          src={session.locationImage}
-          alt={`${session.title} location`}
+          src={coffeeSession.locationImage}
+          alt={`${coffeeSession.title} location`}
           className="absolute inset-0 w-full h-full object-cover scale-105 "
         />
         {/* Soft gradient to improve readability */}
@@ -66,7 +73,7 @@ export function CafeSessionCard({ session }: { session: CafeSession }) {
         {/* Title & price-style chip area (optional badge spot) */}
         <div className="flex items-center justify-between gap-3">
           <h3 className="text-xl font-semibold text-gray-900 leading-tight">
-            {session.title}
+            {coffeeSession.title}
           </h3>
           <div className="relative group">
             <button
@@ -87,7 +94,7 @@ export function CafeSessionCard({ session }: { session: CafeSession }) {
           {dateLabel} • {timeLabel}
         </p>
         <p className="text-sm text-gray-600">
-          {session.city} • {session.zipCode}
+          {coffeeSession.city} • {coffeeSession.zipCode}
         </p>
 
         {/* Attendees row only */}
@@ -117,7 +124,7 @@ export function CafeSessionCard({ session }: { session: CafeSession }) {
         <div className="absolute inset-0 z-20 flex items-center justify-center bg-black/40">
           <div className="max-w-full w-[350px]">
             <JoinCoffeeSessionForm
-              sessionId={session.id}
+              sessionId={coffeeSession.id}
               onSubmitted={() => setShowForm(false)}
             />
           </div>
