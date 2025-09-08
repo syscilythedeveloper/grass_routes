@@ -1,11 +1,12 @@
 import { NextRequest } from "next/server";
 import { supabase } from "../../utils/supabase/server";
 //import { getCloudinaryURL } from "../joinCoffeeSession/route";
+import { getCloudinaryURL } from "../../../lib/cloundinary";
 
 export async function POST(req: NextRequest) {
   try {
     const coffeeMeetup = await req.json();
-    //const photo = coffeeMeetup.photo as string;
+    const userPhoto = coffeeMeetup.photo as string;
     const title = coffeeMeetup.title as string;
     const date = coffeeMeetup.date as string;
     const startTime = coffeeMeetup.startTime as string;
@@ -13,10 +14,7 @@ export async function POST(req: NextRequest) {
     const name = coffeeMeetup.name as string;
     const locationImage = coffeeMeetup.locationImage as string;
     const zipCode = coffeeMeetup.zipCode as string;
-    //   const locationImageUrl = await getCloudinaryURL(photo);
-    //   console.log("Uploaded location image URL:", locationImageUrl);
-    const locationImageUrl2 =
-      "https://res.cloudinary.com/dbmgioxbm/image/upload/v1757307071/checkins/iwlijcbqp02wfth8wxjz.png";
+    const profilePhoto = await getCloudinaryURL(userPhoto);
 
     const result = await createCoffeeSession({
       title,
@@ -25,7 +23,7 @@ export async function POST(req: NextRequest) {
       date,
       zipCode,
       name,
-      photoUrl: locationImageUrl2,
+      photoUrl: profilePhoto,
       locationImage,
     });
 

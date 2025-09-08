@@ -8,7 +8,6 @@ export async function GET() {
       .order("date", { ascending: true });
 
     if (error) throw error;
-    console.log("Fetched coffee meetups:", coffeeMeetups);
 
     return new Response(JSON.stringify(coffeeMeetups), { status: 200 });
   } catch (error) {

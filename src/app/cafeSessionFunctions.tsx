@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
+
 export async function joinCoffeeSession(session: any) {
   const response = await fetch(`/api/joinCoffeeSession`, {
     method: "PUT",

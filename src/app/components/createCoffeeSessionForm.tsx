@@ -63,7 +63,6 @@ export default function CreateCoffeeSessionForm({
       locationImage,
       zipCode,
     });
-    // You can send { title, date, startTime, endTime, name, photo } to your backend here
     setSubmitted(true);
     setTimeout(() => {
       onSubmitted?.();

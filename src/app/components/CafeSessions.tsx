@@ -10,16 +10,14 @@ import {
 import { CafeSessionCard } from "./CafeSessionCard";
 import { getCoffeeMeetUps } from "../cafeSessionFunctions";
 
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const CafeSessions = () => {
   const [coffeeMeetups, setCoffeeMeetups] = useState<any[]>([]);
   useEffect(() => {
     async function fetchData() {
       const res = await getCoffeeMeetUps();
-      console.log("Fetched Data:", res);
       setCoffeeMeetups(res);
-      // handle data
     }
     fetchData();
   }, []);
