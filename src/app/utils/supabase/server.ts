@@ -27,8 +27,3 @@ export async function createClient() {
     }
   );
 }
-
-const supabase = await createClient();
-const { data, error } = await supabase.from("coffee_meetups").select();
-console.log(data, error);
-console.log("coffeeMeetups from supabase:", data);
