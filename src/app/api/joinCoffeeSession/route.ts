@@ -14,10 +14,9 @@ export async function POST(request: NextRequest) {
   try {
     const joinerInfo = await request.json();
     const name = joinerInfo.name as string;
-    //const photo = joinerInfo.photo as string;
-    //const picUrl = await getCloudinaryURL(photo);
-    const picUrl =
-      "https://res.cloudinary.com/dbmgioxbm/image/upload/v1757299141/checkins/dkoy6iacshdynr3vqqwi.png";
+    const photo = joinerInfo.photo as string;
+    const picUrl = await getCloudinaryURL(photo);
+
     const result = await joinSession(name, picUrl, joinerInfo.sessionId);
 
     //update supabase with new attendee info

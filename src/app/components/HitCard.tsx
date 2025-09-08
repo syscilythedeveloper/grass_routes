@@ -1,9 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React from "react";
+import React, { useState } from "react";
+import CreateCoffeeSessionForm from "./createCoffeeSession";
 
 export default function HitCard({ hit }: { hit: any }) {
+  const [showForm, setShowForm] = useState(false);
+
   const handleCoffeeMeetUp = () => {
+    setShowForm(true);
     console.log(`Create Meet-Up for ${hit.objectID}`);
     console.log(`Hit details:`, hit);
   };
@@ -17,7 +21,7 @@ export default function HitCard({ hit }: { hit: any }) {
   return (
     <article
       className="bg-card border border-border rounded-xl shadow-venue-card overflow-hidden 
-        transition-all duration-300 hover:shadow-venue-card-hover hover:scale-105"
+        transition-all duration-300 hover:shadow-venue-card-hover hover:scale-105 relative"
     >
       {/* Vibes above image */}
       <div className="relative aspect-video overflow-hidden bg-gray-100 flex items-center justify-center">
@@ -98,6 +102,16 @@ export default function HitCard({ hit }: { hit: any }) {
           </button>
         </div>
       </div>
+      {showForm && (
+        <div className="absolute inset-0 z-30 flex items-center justify-center bg-black/40">
+          <div className="w-full ">
+            <CreateCoffeeSessionForm
+              title={hit.title || hit.name}
+              onSubmitted={() => setShowForm(false)}
+            />
+          </div>
+        </div>
+      )}
     </article>
   );
 }
