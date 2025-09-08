@@ -1,6 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @next/next/no-img-element */
+"use client";
 import React from "react";
+import JoinCoffeeSessionForm from "./JoinCoffeeSessionForm";
 
 type Attendee = { name: string; profilePic: string };
 type CafeSession = {
@@ -39,6 +41,7 @@ function formatTimeRange(start: string, end: string) {
 }
 
 export function CafeSessionCard({ session }: { session: CafeSession }) {
+  const [showForm, setShowForm] = React.useState(false);
   const dateLabel = formatDateLabel(session.date);
   const timeLabel = formatTimeRange(session.startTime, session.endTime);
   const attendees = Array.isArray(session.attendees)
@@ -69,6 +72,7 @@ export function CafeSessionCard({ session }: { session: CafeSession }) {
             <button
               className="ml-2 flex items-center justify-center w-8 h-8 rounded-full bg-[#AB7854] text-white text-lg font-bold hover:bg-[#6F4E37] "
               aria-label="Join Session"
+              onClick={() => setShowForm(true)}
             >
               +
             </button>
@@ -109,6 +113,16 @@ export function CafeSessionCard({ session }: { session: CafeSession }) {
           {attendees.length} attending
         </p>
       </div>
+      {showForm && (
+        <div className="absolute inset-0 z-20 flex items-center justify-center bg-black/40">
+          <div className="max-w-full w-[350px]">
+            <JoinCoffeeSessionForm
+              sessionId={session.id}
+              onSubmitted={() => setShowForm(false)}
+            />
+          </div>
+        </div>
+      )}
     </article>
   );
 }
