@@ -1,5 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
+
 import React, { useState, useRef } from "react";
+
 import { createCoffeeSession } from "../cafeSessionFunctions";
 
 export default function CreateCoffeeSessionForm({

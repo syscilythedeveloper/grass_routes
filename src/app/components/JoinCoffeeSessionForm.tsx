@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+
 import React, { useState, useRef } from "react";
 import { joinCoffeeSession } from "../cafeSessionFunctions";
 
