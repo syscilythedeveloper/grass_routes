@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { useState } from "react";
-import CreateCoffeeSessionForm from "./createCoffeeSession";
+import CreateCoffeeSessionForm from "./createCoffeeSessionForm";
 
 export default function HitCard({ hit }: { hit: any }) {
   const [showForm, setShowForm] = useState(false);
@@ -107,6 +107,8 @@ export default function HitCard({ hit }: { hit: any }) {
           <div className="w-full ">
             <CreateCoffeeSessionForm
               title={hit.title || hit.name}
+              locationImage={imageUrl}
+              zipCode={hit.zipCode}
               onSubmitted={() => setShowForm(false)}
             />
           </div>

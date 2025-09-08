@@ -17,7 +17,7 @@ export async function POST(request: NextRequest) {
     const photo = joinerInfo.photo as string;
     const picUrl = await getCloudinaryURL(photo);
 
-    const result = await joinSession(name, picUrl, joinerInfo.sessionId);
+    const result = await joinCoffeeMeetup(name, picUrl, joinerInfo.sessionId);
 
     //update supabase with new attendee info
 
@@ -63,7 +63,11 @@ export async function getCloudinaryURL(
   });
 }
 
-const joinSession = async (name: string, picUrl: string, sessionId: string) => {
+const joinCoffeeMeetup = async (
+  name: string,
+  picUrl: string,
+  sessionId: string
+) => {
   try {
     // Fetch current attendees
     const { data: session, error: fetchError } = await supabase
@@ -84,7 +88,7 @@ const joinSession = async (name: string, picUrl: string, sessionId: string) => {
     // Add new attendee
     attendees.push({ name, profilePic: picUrl });
 
-    // Update session in Supabase
+    // Update coffee_meetup in Supabase
     const { error: updateError } = await supabase
       .from("coffee_meetups")
       .update({ attendees: JSON.stringify(attendees) })

@@ -39,8 +39,8 @@ export default function Algolia() {
             classNames={{
               root: "flex justify-center mt-2 mb-2",
               list: "flex gap-2",
-              item: "px-3 py-1 border border-gray-300 rounded text-sm hover:bg-green-100 transition",
-              selectedItem: "bg-green-600 text-white font-semibold",
+              item: "px-3 py-1 border border-gray-300 rounded text-sm hover:bg-[#6F4E37]/20 transition",
+              selectedItem: "bg-[#6F4E37] text-white font-semibold",
               disabledItem: "opacity-40 cursor-not-allowed",
             }}
           />

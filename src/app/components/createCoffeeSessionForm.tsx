@@ -1,11 +1,17 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { useState, useRef } from "react";
+import { createCoffeeSession } from "../cafeSessionFunctions";
 
 export default function CreateCoffeeSessionForm({
   title,
+  locationImage,
+  zipCode,
+
   onSubmitted,
 }: {
   title: string;
+  locationImage: string;
+  zipCode: string;
   onSubmitted?: () => void;
 }) {
   const [date, setDate] = useState("");
@@ -47,6 +53,16 @@ export default function CreateCoffeeSessionForm({
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    createCoffeeSession({
+      title,
+      date,
+      startTime,
+      endTime,
+      name,
+      photo,
+      locationImage,
+      zipCode,
+    });
     // You can send { title, date, startTime, endTime, name, photo } to your backend here
     setSubmitted(true);
     setTimeout(() => {
