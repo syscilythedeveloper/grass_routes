@@ -10,7 +10,7 @@ cloudinary.config({
   api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 
-export async function POST(request: NextRequest) {
+export async function PUT(request: NextRequest) {
   try {
     const joinerInfo = await request.json();
     const name = joinerInfo.name as string;

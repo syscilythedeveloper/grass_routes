@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+"use client";
 import {
   Carousel,
   CarouselContent,
@@ -6,9 +8,22 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { CafeSessionCard } from "./CafeSessionCard";
-import { coffeeMeetups } from "../utils/supabase/server";
+import { getCoffeeMeetUps } from "../cafeSessionFunctions";
+
+import { useEffect, useState } from "react";
 
 const CafeSessions = () => {
+  const [coffeeMeetups, setCoffeeMeetups] = useState<any[]>([]);
+  useEffect(() => {
+    async function fetchData() {
+      const res = await getCoffeeMeetUps();
+      console.log("Fetched Data:", res);
+      setCoffeeMeetups(res);
+      // handle data
+    }
+    fetchData();
+  }, []);
+
   return (
     <div className="my-10 px-4">
       <h2 className="text-2xl font-bold mb-4 text-center">
@@ -17,7 +32,7 @@ const CafeSessions = () => {
 
       <Carousel className="w-full max-w-5xl mx-auto">
         <CarouselContent className="-ml-1">
-          {coffeeMeetups?.map((session, index) => (
+          {coffeeMeetups?.map((session: any, index: number) => (
             <CarouselItem
               key={session.id || index}
               className="pl-1 basis-1/3"

@@ -1,0 +1,140 @@
+# extend schema
+#   @link(url: "https://specs.apollo.dev/federation/v2.11", import: ["@key"])
+#   @link(
+#     url: "https://specs.apollo.dev/connect/v0.2"
+#     import: ["@source", "@connect"]
+#   )
+#   @source(name: "coffee", http: { baseURL: "http://localhost:3000/api" })
+
+# type Query {
+#   coffeeMeetUps: [CoffeeMeetUp!]!
+#     @connect(
+#       source: "coffee"
+#       http: { GET: "/sessions" }
+#       selection: """
+#       sessions {
+#         id
+#         title
+#         startTime
+#         endTime
+#         date
+#         zipCode
+#         city
+#         locationImage
+#         attendees { id name profilePic }
+#       }
+#       """
+#     )
+
+#   coffeeMeetUp(id: ID!): CoffeeMeetUp
+#     @connect(
+#       source: "coffee"
+#       http: { GET: "/sessions/{$args.id}" }
+#       selection: """
+#       session {
+#         id
+#         title
+#         startTime
+#         endTime
+#         date
+#         zipCode
+#         city
+#         locationImage
+#         attendees { id name profilePic }
+#       }
+#       """
+#     )
+# }
+
+# type CoffeeMeetUp
+#   @connect(
+#     source: "coffee"
+#     http: { GET: "/sessions/{$this.id}" }
+#     selection: """
+#     session {
+#       id
+#       title
+#       startTime
+#       endTime
+#       date
+#       zipCode
+#       city
+#       locationImage
+#       attendees { id name profilePic }
+#     }
+#     """
+#   )
+#   @key(fields: "id") {
+#   id: ID!
+#   title: String!
+#   startTime: String!
+#   endTime: String!
+#   date: String!
+#   zipCode: String!
+#   city: String!
+#   locationImage: String
+#   attendees: [Attendee!]!
+# }
+
+# type Attendee {
+#   id: ID!
+#   name: String!
+#   profilePic: String
+# }
+
+# input CreateCoffeeMeetUpInput {
+#   title: String!
+#   startTime: String!
+#   endTime: String!
+#   date: String!
+#   zipCode: String!
+#   city: String!
+#   locationImage: String
+# }
+
+# type CreateCoffeeMeetUpResponse {
+#   session: CoffeeMeetUp
+# }
+
+# type Mutation {
+#   createCoffeeMeetUp(
+#     input: CreateCoffeeMeetUpInput!
+#   ): CreateCoffeeMeetUpResponse
+#     @connect(
+#       source: "coffee"
+#       http: {
+#         POST: "/sessions"
+#         headers: [{ name: "Authorization", from: "Authorization" }]
+#         body: """
+#         {
+#           title: $args.input.title
+#           startTime: $args.input.startTime
+#           endTime: $args.input.endTime
+#           date: $args.input.date
+#           zipCode: $args.input.zipCode
+#           city: $args.input.city
+#           locationImage: $args.input.locationImage
+#         }
+#         """
+#       }
+#       selection: """
+#       session {
+#         id title startTime endTime date zipCode city locationImage
+#         attendees { id name profilePic }
+#       }
+#       """
+#     )
+
+#   addAttendee(sessionId: ID!, name: String!, profilePic: String): Attendee
+#     @connect(
+#       source: "coffee"
+#       http: {
+#         POST: "/sessions/{$args.sessionId}/attendees"
+#         headers: [{ name: "Authorization", from: "Authorization" }]
+#         body: """
+#         { name: $args.name, profilePic: $args.profilePic }
+#         """
+#       }
+#       selection: "attendee { id name profilePic }"
+#     )
+# }
