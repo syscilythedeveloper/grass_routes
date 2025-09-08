@@ -1,0 +1,830 @@
+[
+  {
+    "objectID": "venue_creative_grounds_dc",
+    "name": "Creative Grounds DC",
+    "city": "Washington, DC ",
+    "price": "$",
+    "tags": ["R&B", "outdoor", "loud"],
+    "hours": {
+      "mon": [["07:00", "15:00"]],
+      "tue": [["07:00", "15:00"]],
+      "wed": [["07:00", "15:00"]],
+      "thu": [["07:00", "15:00"]],
+      "fri": [["07:00", "15:00"]],
+      "sat": [["08:00", "16:00"]],
+      "sun": [["08:00", "16:00"]]
+    },
+    "photos": [
+      "https://s3-media0.fl.yelpcdn.com/bphoto/clS2Uxp8h5aOceM9QFqISA/348s.jpg"
+    ],
+    "ratingHint": 3.8,
+    "reviewCountHint": 351,
+    "zipCode": "20010"
+  },
+  {
+    "objectID": "venue_rues_cafe",
+    "name": "Rue\u2019s Caf\u00e9",
+    "neighborhood": "Brightwood",
+    "quadrant": "NW",
+    "price": "$",
+    "tags": ["coffee", "casual"],
+    "music": ["Instrumental", "Chill", "R&B"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["chill"],
+    "hours": {
+      "mon": [["07:00", "15:00"]],
+      "tue": [["07:00", "15:00"]],
+      "wed": [["07:00", "15:00"]],
+      "thu": [["07:00", "15:00"]],
+      "fri": [["07:00", "15:00"]],
+      "sat": [["08:00", "16:00"]],
+      "sun": [["08:00", "16:00"]]
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/p/AF1QipNMVDCW4fz_5P6_rlai-BizCnfRq9J1n9qbiVW1=w289-h312-n-k-no"
+    ],
+    "ratingHint": 4.32,
+    "reviewCountHint": 289,
+    "zipCode": "20011"
+  },
+  {
+    "objectID": "venue_dolphin_cafe",
+    "name": "Dolphin Caf\u00e9",
+    "neighborhood": "Petworth",
+    "quadrant": "NW",
+    "price": "$",
+    "tags": ["coffee", "casual"],
+    "music": ["Instrumental", "Chill", "R&B"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["chill"],
+    "hours": {
+      "mon": [["07:00", "15:00"]],
+      "tue": [["07:00", "15:00"]],
+      "wed": [["07:00", "15:00"]],
+      "thu": [["07:00", "15:00"]],
+      "fri": [["07:00", "15:00"]],
+      "sat": [["08:00", "16:00"]],
+      "sun": [["08:00", "16:00"]]
+    },
+    "photos": [
+      "https://s3-media0.fl.yelpcdn.com/bphoto/si4wVoRBDWJGzgehieZgGQ/348s.jpg"
+    ],
+    "ratingHint": 4.08,
+    "reviewCountHint": 444,
+    "zipCode": "20011"
+  },
+  {
+    "objectID": "venue_village_cafe",
+    "name": "The Village Caf\u00e9",
+    "neighborhood": "Union Market",
+    "quadrant": "NE",
+    "price": "$",
+    "tags": ["coffee", "community"],
+    "music": ["Instrumental", "Chill", "R&B"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["chill"],
+    "hours": {
+      "mon": [["07:00", "15:00"]],
+      "tue": [["07:00", "15:00"]],
+      "wed": [["07:00", "15:00"]],
+      "thu": [["07:00", "15:00"]],
+      "fri": [["07:00", "15:00"]],
+      "sat": [["08:00", "16:00"]],
+      "sun": [["08:00", "16:00"]]
+    },
+    "photos": [
+      "https://midcitydcnews.com/wp-content/uploads/2018/11/Village-Cafe.jpeg"
+    ],
+    "ratingHint": 4.39,
+    "reviewCountHint": 216,
+    "zipCode": "20002"
+  },
+  {
+    "objectID": "venue_sankofa_cafe",
+    "name": "Sankofa Caf\u00e9",
+    "neighborhood": "Howard/Shaw",
+    "quadrant": "NW",
+    "price": "$",
+    "tags": ["coffee", "bookstore"],
+    "music": ["Instrumental", "Chill", "R&B"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["chill"],
+    "hours": {
+      "mon": [["07:00", "15:00"]],
+      "tue": [["07:00", "15:00"]],
+      "wed": [["07:00", "15:00"]],
+      "thu": [["07:00", "15:00"]],
+      "fri": [["07:00", "15:00"]],
+      "sat": [["08:00", "16:00"]],
+      "sun": [["08:00", "16:00"]]
+    },
+    "photos": [
+      "https://www.popville.com/wp-content/uploads/2021/06/sankofa-popville.jpg"
+    ],
+    "ratingHint": 4.44,
+    "reviewCountHint": 304,
+    "zipCode": "20001"
+  },
+  {
+    "objectID": "venue_la_coop_coffee",
+    "name": "La Coop Coffee",
+    "neighborhood": "Northeast DC",
+    "quadrant": "NE",
+    "price": "$",
+    "tags": ["coffee", "pastries"],
+    "music": ["Instrumental", "Chill", "R&B"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["chill"],
+    "hours": {
+      "mon": [["07:00", "15:00"]],
+      "tue": [["07:00", "15:00"]],
+      "wed": [["07:00", "15:00"]],
+      "thu": [["07:00", "15:00"]],
+      "fri": [["07:00", "15:00"]],
+      "sat": [["08:00", "16:00"]],
+      "sun": [["08:00", "16:00"]]
+    },
+    "photos": [
+      "https://images.squarespace-cdn.com/content/v1/59e647d94c326df433d58f0f/1d2f59b6-2a81-4f95-bf1d-4dfbad708624/IMG_6478.jpg"
+    ],
+    "ratingHint": 4.52,
+    "reviewCountHint": 199,
+    "zipCode": "20002"
+  },
+  {
+    "objectID": "venue_sweet_science_coffee",
+    "name": "Sweet Science Coffee",
+    "neighborhood": "NoMa",
+    "quadrant": "NE",
+    "price": "$",
+    "tags": ["coffee", "artisanal"],
+    "music": ["Instrumental", "Chill", "R&B"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["chill"],
+    "hours": {
+      "mon": [["07:00", "15:00"]],
+      "tue": [["07:00", "15:00"]],
+      "wed": [["07:00", "15:00"]],
+      "thu": [["07:00", "15:00"]],
+      "fri": [["07:00", "15:00"]],
+      "sat": [["08:00", "16:00"]],
+      "sun": [["08:00", "16:00"]]
+    },
+    "photos": [
+      "https://www.arlnow.com/wp-content/uploads/2023/01/2023-01-23-ARL-Simona-03.jpg"
+    ],
+    "ratingHint": 3.91,
+    "reviewCountHint": 146,
+    "zipCode": "20002"
+  },
+  {
+    "objectID": "venue_sost",
+    "name": "Sost",
+    "neighborhood": "U Street",
+    "quadrant": "NW",
+    "price": "$$",
+    "tags": ["happy-hour", "cocktails", "casual"],
+    "music": ["AfroBeats", "R&B", "DJ"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["lively", "casual"],
+    "hours": {
+      "mon": [["16:00", "23:00"]],
+      "tue": [["16:00", "23:00"]],
+      "wed": [["16:00", "23:00"]],
+      "thu": [["16:00", "23:59"]],
+      "fri": [["16:00", "02:00"]],
+      "sat": [["11:00", "02:00"]],
+      "sun": [["11:00", "23:00"]]
+    },
+    "photos": [
+      "https://images.squarespace-cdn.com/content/v1/6724f75fe3c2d42fa13b0e33/c371e822-34e5-43ff-97b9-8514a4e1d4c1/Vinyl+Room+%283%29-min.jpg"
+    ],
+    "ratingHint": 3.84,
+    "reviewCountHint": 408,
+    "zipCode": "20009"
+  },
+  {
+    "objectID": "venue_metrobar",
+    "name": "Metrobar",
+    "neighborhood": "Rhode Island Ave",
+    "quadrant": "NE",
+    "price": "$$",
+    "tags": ["outdoor", "cocktails", "casual"],
+    "music": ["AfroBeats", "R&B", "DJ"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["lively", "casual"],
+    "hours": {
+      "mon": [["16:00", "23:00"]],
+      "tue": [["16:00", "23:00"]],
+      "wed": [["16:00", "23:00"]],
+      "thu": [["16:00", "23:59"]],
+      "fri": [["16:00", "02:00"]],
+      "sat": [["11:00", "02:00"]],
+      "sun": [["11:00", "23:00"]]
+    },
+    "photos": [
+      "https://d22ko7latny6xj.cloudfront.net/uploads/image/image/82301/large_roof.jpg"
+    ],
+    "ratingHint": 4.17,
+    "reviewCountHint": 216,
+    "zipCode": "20002"
+  },
+  {
+    "objectID": "venue_copycat_co",
+    "name": "Copycat Co.",
+    "neighborhood": "H Street",
+    "quadrant": "NE",
+    "price": "$$",
+    "tags": ["cocktails", "late-night", "casual"],
+    "music": ["Hip-Hop", "R&B"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["lively", "casual"],
+    "hours": {
+      "mon": [["16:00", "23:00"]],
+      "tue": [["16:00", "23:00"]],
+      "wed": [["16:00", "23:00"]],
+      "thu": [["16:00", "23:59"]],
+      "fri": [["16:00", "02:00"]],
+      "sat": [["11:00", "02:00"]],
+      "sun": [["11:00", "23:00"]]
+    },
+    "photos": [
+      "https://static.where-e.com/United_States/District_Of_Columbia/Copycat-Co_2abcf12618c0ce6302f7a28bacf54f4a.jpg"
+    ],
+    "ratingHint": 3.97,
+    "reviewCountHint": 442,
+    "zipCode": "20002"
+  },
+  {
+    "objectID": "venue_trouble_bird",
+    "name": "Trouble Bird",
+    "neighborhood": "Shaw",
+    "quadrant": "NW",
+    "price": "$$",
+    "tags": ["cocktails", "creative", "casual"],
+    "music": ["R&B", "Hip-Hop", "DJ"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["lively", "casual"],
+    "hours": {
+      "mon": [["16:00", "23:00"]],
+      "tue": [["16:00", "23:00"]],
+      "wed": [["16:00", "23:00"]],
+      "thu": [["16:00", "23:59"]],
+      "fri": [["16:00", "02:00"]],
+      "sat": [["11:00", "02:00"]],
+      "sun": [["11:00", "23:00"]]
+    },
+    "photos": [
+      "https://platform.dc.eater.com/wp-content/uploads/sites/9/chorus/uploads/chorus_asset/file/24470315/FullSizeR.JPG?quality=90&strip=all&crop=0,5.5555555555556,100,88.888888888889"
+    ],
+    "ratingHint": 4.45,
+    "reviewCountHint": 87,
+    "zipCode": "20001"
+  },
+  {
+    "objectID": "venue_silver_social",
+    "name": "Silver Social",
+    "neighborhood": "Southwest Waterfront",
+    "quadrant": "SW",
+    "price": "$$",
+    "tags": ["cocktails", "modern", "casual"],
+    "music": ["R&B", "Hip-Hop", "Background"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["lively", "casual"],
+    "hours": {
+      "mon": [["16:00", "23:00"]],
+      "tue": [["16:00", "23:00"]],
+      "wed": [["16:00", "23:00"]],
+      "thu": [["16:00", "23:59"]],
+      "fri": [["16:00", "02:00"]],
+      "sat": [["11:00", "02:00"]],
+      "sun": [["11:00", "23:00"]]
+    },
+    "photos": [
+      "https://images.squarespace-cdn.com/content/v1/62422bea2e9cd25bb718fd1c/9607ec76-c63c-47e5-b072-9c1e121c5445/Social_Patio.jpg"
+    ],
+    "ratingHint": 4.66,
+    "reviewCountHint": 32,
+    "zipCode": "20024"
+  },
+  {
+    "objectID": "venue_somewhere",
+    "name": "SOMEWHERE",
+    "neighborhood": "Navy Yard",
+    "quadrant": "SE",
+    "price": "$$",
+    "tags": ["cafe", "bar", "casual"],
+    "music": ["R&B", "Hip-Hop", "Lounge"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["lively", "casual"],
+    "hours": {
+      "mon": [["16:00", "23:00"]],
+      "tue": [["16:00", "23:00"]],
+      "wed": [["16:00", "23:00"]],
+      "thu": [["16:00", "23:59"]],
+      "fri": [["16:00", "02:00"]],
+      "sat": [["11:00", "02:00"]],
+      "sun": [["11:00", "23:00"]]
+    },
+    "photos": [
+      "https://s3-media0.fl.yelpcdn.com/bphoto/-x4wsKiyreOJ_PuzDzPzag/348s.jpg"
+    ],
+    "ratingHint": 4.31,
+    "reviewCountHint": 443,
+    "zipCode": "20003"
+  },
+  {
+    "objectID": "venue_serenata",
+    "name": "Serenata",
+    "neighborhood": "La Cosecha",
+    "quadrant": "NE",
+    "price": "$$",
+    "tags": ["cocktails", "latin", "casual"],
+    "music": ["Latin", "Lounge"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["lively", "casual"],
+    "hours": {
+      "mon": [["16:00", "23:00"]],
+      "tue": [["16:00", "23:00"]],
+      "wed": [["16:00", "23:00"]],
+      "thu": [["16:00", "23:59"]],
+      "fri": [["16:00", "02:00"]],
+      "sat": [["11:00", "02:00"]],
+      "sun": [["11:00", "23:00"]]
+    },
+    "photos": [
+      "https://unionmarketdc.com/wp-content/uploads/2023/04/Serenata_2.jpg"
+    ],
+    "ratingHint": 3.98,
+    "reviewCountHint": 112,
+    "zipCode": "20002"
+  },
+  {
+    "objectID": "venue_service_bar",
+    "name": "Service Bar",
+    "neighborhood": "U Street",
+    "quadrant": "NW",
+    "price": "$$",
+    "tags": ["cocktails", "craft", "casual"],
+    "music": ["Hip-Hop", "R&B", "DJ"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["lively", "casual"],
+    "hours": {
+      "mon": [["16:00", "23:00"]],
+      "tue": [["16:00", "23:00"]],
+      "wed": [["16:00", "23:00"]],
+      "thu": [["16:00", "23:59"]],
+      "fri": [["16:00", "02:00"]],
+      "sat": [["11:00", "02:00"]],
+      "sun": [["11:00", "23:00"]]
+    },
+    "photos": [
+      "https://www.theworlds50best.com/bars/northamerica/filestore/jpeg/Service%20Bar-hero_NA50BB25-website.jpeg"
+    ],
+    "ratingHint": 3.85,
+    "reviewCountHint": 424,
+    "zipCode": "20009"
+  },
+  {
+    "objectID": "venue_el_secreto_de_rosita",
+    "name": "El Secreto de Rosita",
+    "neighborhood": "U Street",
+    "quadrant": "NW",
+    "price": "$$",
+    "tags": ["peruvian", "cocktails", "casual"],
+    "music": ["Latin", "Lounge", "DJ"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["lively", "casual"],
+    "hours": {
+      "mon": [["16:00", "23:00"]],
+      "tue": [["16:00", "23:00"]],
+      "wed": [["16:00", "23:00"]],
+      "thu": [["16:00", "23:59"]],
+      "fri": [["16:00", "02:00"]],
+      "sat": [["11:00", "02:00"]],
+      "sun": [["11:00", "23:00"]]
+    },
+    "photos": [
+      "https://jimsdiningguides.com/wp-content/uploads/2024/01/secreto-rosita-inside.jpg"
+    ],
+    "ratingHint": 4.02,
+    "reviewCountHint": 174,
+    "zipCode": "20009"
+  },
+  {
+    "objectID": "venue_unconventional_diner",
+    "name": "Unconventional Diner",
+    "neighborhood": "Mt. Vernon Sq",
+    "quadrant": "NW",
+    "price": "$$",
+    "tags": ["modern", "comfort", "bar"],
+    "music": ["R&B", "Hip-Hop", "Background"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["lively", "casual"],
+    "hours": {
+      "mon": [["16:00", "23:00"]],
+      "tue": [["16:00", "23:00"]],
+      "wed": [["16:00", "23:00"]],
+      "thu": [["16:00", "23:59"]],
+      "fri": [["16:00", "02:00"]],
+      "sat": [["11:00", "02:00"]],
+      "sun": [["11:00", "23:00"]]
+    },
+    "photos": [
+      "https://washington.org/sites/default/files/dc_import/Unconventional-Diner-Special-Events-Package-Dining-Room_B4BE2611-5056-BF65-D6286DB20A9883AE-b4be25815056bf6_b4be292e-5056-bf65-d62235dd2a946031.jpg"
+    ],
+    "ratingHint": 4.31,
+    "reviewCountHint": 249,
+    "zipCode": "20001"
+  },
+
+  {
+    "objectID": "venue_stellina_pizzeria",
+    "name": "Stellina Pizzeria",
+    "neighborhood": "Union Market",
+    "quadrant": "NE",
+    "price": "$$",
+    "tags": ["pizza", "spritz", "casual"],
+    "music": ["R&B", "Hip-Hop", "Background"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["lively", "casual"],
+    "hours": {
+      "mon": [["16:00", "23:00"]],
+      "tue": [["16:00", "23:00"]],
+      "wed": [["16:00", "23:00"]],
+      "thu": [["16:00", "23:59"]],
+      "fri": [["16:00", "02:00"]],
+      "sat": [["11:00", "02:00"]],
+      "sun": [["11:00", "23:00"]]
+    },
+    "photos": [
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/f3/4f/a6/photo0jpg.jpg?w=900&h=500&s=1"
+    ],
+    "ratingHint": 3.83,
+    "reviewCountHint": 136,
+    "zipCode": "20002"
+  },
+  {
+    "objectID": "venue_lydia_on_h",
+    "name": "Lydia on H",
+    "neighborhood": "H Street",
+    "quadrant": "NE",
+    "price": "$$",
+    "tags": ["cocktails", "casual"],
+    "music": ["R&B", "Hip-Hop", "Background"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["lively", "casual"],
+    "hours": {
+      "mon": [["16:00", "23:00"]],
+      "tue": [["16:00", "23:00"]],
+      "wed": [["16:00", "23:00"]],
+      "thu": [["16:00", "23:59"]],
+      "fri": [["16:00", "02:00"]],
+      "sat": [["11:00", "02:00"]],
+      "sun": [["11:00", "23:00"]]
+    },
+    "photos": [
+      "https://www.mvemnt.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-08-at-1.52.53-AM.png"
+    ],
+    "ratingHint": 3.89,
+    "reviewCountHint": 123,
+    "zipCode": "20002"
+  },
+  {
+    "objectID": "venue_thamee",
+    "name": "Thamee",
+    "neighborhood": "H Street",
+    "quadrant": "NE",
+    "price": "$$",
+    "tags": ["burmese", "small-plates", "casual"],
+    "music": ["Lounge", "Instrumental"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["lively", "casual"],
+    "hours": {
+      "mon": [["16:00", "23:00"]],
+      "tue": [["16:00", "23:00"]],
+      "wed": [["16:00", "23:00"]],
+      "thu": [["16:00", "23:59"]],
+      "fri": [["16:00", "02:00"]],
+      "sat": [["11:00", "02:00"]],
+      "sun": [["11:00", "23:00"]]
+    },
+    "photos": [
+      "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/FXF5LXADWMI6ZM6EYRRLD3OPZA.jpg&w=1440"
+    ],
+    "ratingHint": 4.3,
+    "reviewCountHint": 256,
+    "zipCode": "20002"
+  },
+  {
+    "objectID": "venue_cane",
+    "name": "Cane",
+    "neighborhood": "H Street",
+    "quadrant": "NE",
+    "price": "$$",
+    "tags": ["caribbean", "rum", "casual"],
+    "music": ["R&B", "AfroBeats", "Latin"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["lively", "casual"],
+    "hours": {
+      "mon": [["16:00", "23:00"]],
+      "tue": [["16:00", "23:00"]],
+      "wed": [["16:00", "23:00"]],
+      "thu": [["16:00", "23:59"]],
+      "fri": [["16:00", "02:00"]],
+      "sat": [["11:00", "02:00"]],
+      "sun": [["11:00", "23:00"]]
+    },
+    "photos": [
+      "https://platform.dc.eater.com/wp-content/uploads/sites/9/chorus/uploads/chorus_asset/file/16176753/Wide.jpg?quality=90&strip=all&crop=0,0,100,100"
+    ],
+    "ratingHint": 4.37,
+    "reviewCountHint": 417,
+    "zipCode": "20002"
+  },
+  {
+    "objectID": "venue_st_james",
+    "name": "St. James",
+    "neighborhood": "14th St",
+    "quadrant": "NW",
+    "price": "$$",
+    "tags": ["caribbean", "cocktails", "date-night"],
+    "music": ["Lounge", "R&B"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["lively", "casual"],
+    "hours": {
+      "mon": [["16:00", "23:00"]],
+      "tue": [["16:00", "23:00"]],
+      "wed": [["16:00", "23:00"]],
+      "thu": [["16:00", "23:59"]],
+      "fri": [["16:00", "02:00"]],
+      "sat": [["11:00", "02:00"]],
+      "sun": [["11:00", "23:00"]]
+    },
+    "photos": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZcpihXWEeDw5c9qQ4b_8o4sFILdsblzkUnA&s"
+    ],
+    "ratingHint": 4.03,
+    "reviewCountHint": 440,
+    "zipCode": "20009"
+  },
+  {
+    "objectID": "venue_elmina",
+    "name": "Elmina",
+    "neighborhood": "U Street",
+    "quadrant": "NW",
+    "price": "$$",
+    "tags": ["west-african", "cocktails", "casual"],
+    "music": ["AfroBeats", "Lounge", "R&B"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["lively", "casual"],
+    "hours": {
+      "mon": [["16:00", "23:00"]],
+      "tue": [["16:00", "23:00"]],
+      "wed": [["16:00", "23:00"]],
+      "thu": [["16:00", "23:59"]],
+      "fri": [["16:00", "02:00"]],
+      "sat": [["11:00", "02:00"]],
+      "sun": [["11:00", "23:00"]]
+    },
+    "photos": [
+      "https://res.cloudinary.com/the-infatuation/image/upload/v1729170032/images/La_Shukran_DC_Interiors_Hawkeye_Johnson_b8p0yf.jpg"
+    ],
+    "ratingHint": 3.93,
+    "reviewCountHint": 41,
+    "zipCode": "20009"
+  },
+
+  {
+    "objectID": "venue_toast_wharf",
+    "name": "Toastique",
+    "neighborhood": "The Wharf",
+    "quadrant": "SW",
+    "price": "$$",
+    "tags": ["brunch", "bar", "casual"],
+    "music": ["R&B", "Background"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["lively", "casual"],
+    "hours": {
+      "mon": [["16:00", "23:00"]],
+      "tue": [["16:00", "23:00"]],
+      "wed": [["16:00", "23:00"]],
+      "thu": [["16:00", "23:59"]],
+      "fri": [["16:00", "02:00"]],
+      "sat": [["11:00", "02:00"]],
+      "sun": [["11:00", "23:00"]]
+    },
+    "photos": [
+      "https://toastique.com/cdn/shop/files/toastique-wharf.jpg?v=1743049907&width=1500"
+    ],
+    "ratingHint": 4.42,
+    "reviewCountHint": 146,
+    "zipCode": "20024"
+  },
+  {
+    "objectID": "venue_maketto",
+    "name": "Maketto",
+    "neighborhood": "H Street",
+    "quadrant": "NE",
+    "price": "$$",
+    "tags": ["asian-fusion", "cafe", "bar"],
+    "music": ["Lounge", "Instrumental", "R&B"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["lively", "casual"],
+    "hours": {
+      "mon": [["16:00", "23:00"]],
+      "tue": [["16:00", "23:00"]],
+      "wed": [["16:00", "23:00"]],
+      "thu": [["16:00", "23:59"]],
+      "fri": [["16:00", "02:00"]],
+      "sat": [["11:00", "02:00"]],
+      "sun": [["11:00", "23:00"]]
+    },
+    "photos": ["https://cdn.mos.cms.futurecdn.net/f8Ya6CXQXrucaG9AMP7TEg.jpg"],
+    "ratingHint": 3.84,
+    "reviewCountHint": 225,
+    "zipCode": "20002"
+  },
+  {
+    "objectID": "venue_moonraker",
+    "name": "Moonraker",
+    "neighborhood": "The Wharf",
+    "quadrant": "SW",
+    "price": "$$$",
+    "tags": ["rooftop", "cocktails", "views"],
+    "music": ["Lounge", "DJ"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["date-night", "lively"],
+    "hours": {
+      "mon": [["17:00", "22:00"]],
+      "tue": [["17:00", "22:00"]],
+      "wed": [["17:00", "23:00"]],
+      "thu": [["17:00", "23:00"]],
+      "fri": [["16:00", "01:00"]],
+      "sat": [["12:00", "01:00"]],
+      "sun": [["12:00", "22:00"]]
+    },
+    "photos": [
+      "https://uploads.pendry.com/redesign/wp-content/uploads/sites/9/2023/09/19162319/PDC3-REST-MOONRAKER-01-3346-1200x795-11e462d.webp"
+    ],
+    "ratingHint": 4.31,
+    "reviewCountHint": 63,
+    "zipCode": "20024"
+  },
+  {
+    "objectID": "venue_vue_rooftop",
+    "name": "VUE Rooftop",
+    "neighborhood": "Downtown",
+    "quadrant": "NW",
+    "price": "$$$",
+    "tags": ["rooftop", "happy-hour", "views"],
+    "music": ["DJ", "Lounge"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["date-night", "lively"],
+    "hours": {
+      "mon": [["17:00", "22:00"]],
+      "tue": [["17:00", "22:00"]],
+      "wed": [["17:00", "23:00"]],
+      "thu": [["17:00", "23:00"]],
+      "fri": [["16:00", "01:00"]],
+      "sat": [["12:00", "01:00"]],
+      "sun": [["12:00", "22:00"]]
+    },
+    "photos": [
+      "https://resizer.otstatic.com/v3/photos/80636478-2?width=752&height=752&webp=true"
+    ],
+    "ratingHint": 4.25,
+    "reviewCountHint": 147,
+    "zipCode": "20004"
+  },
+  {
+    "objectID": "venue_jack_rose",
+    "name": "Jack Rose Dining Saloon",
+    "neighborhood": "Adams Morgan",
+    "quadrant": "NW",
+    "price": "$$$",
+    "tags": ["rooftop", "whiskey", "bar"],
+    "music": ["Jazz", "Lounge"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["date-night", "lively"],
+    "hours": {
+      "mon": [["17:00", "22:00"]],
+      "tue": [["17:00", "22:00"]],
+      "wed": [["17:00", "23:00"]],
+      "thu": [["17:00", "23:00"]],
+      "fri": [["16:00", "01:00"]],
+      "sat": [["12:00", "01:00"]],
+      "sun": [["12:00", "22:00"]]
+    },
+    "photos": [
+      "https://images.squarespace-cdn.com/content/v1/66ce9db002a66a17574ce009/ed270a2c-3fa6-422d-b2c3-ac5d2c400c19/Jack+Rose+Dining+Bar+Long-GregPowers.jpeg"
+    ],
+    "ratingHint": 4.4,
+    "reviewCountHint": 239,
+    "zipCode": "20009"
+  },
+  {
+    "objectID": "venue_colada_shop_14th",
+    "name": "Colada Shop (14th St Rooftop)",
+    "neighborhood": "14th St",
+    "quadrant": "NW",
+    "price": "$$$",
+    "tags": ["rooftop", "coffee", "cocktails"],
+    "music": ["Latin", "Lounge", "DJ"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["date-night", "lively"],
+    "hours": {
+      "mon": [["17:00", "22:00"]],
+      "tue": [["17:00", "22:00"]],
+      "wed": [["17:00", "23:00"]],
+      "thu": [["17:00", "23:00"]],
+      "fri": [["16:00", "01:00"]],
+      "sat": [["12:00", "01:00"]],
+      "sun": [["12:00", "22:00"]]
+    },
+    "photos": [
+      "https://static.wixstatic.com/media/3dc74f_c50f09871cfe489b9dcc444039856526~mv2.jpg/v1/fill/w_640,h_462,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/3dc74f_c50f09871cfe489b9dcc444039856526~mv2.jpg"
+    ],
+    "ratingHint": 4.5,
+    "reviewCountHint": 80,
+    "zipCode": "20009"
+  },
+  {
+    "objectID": "venue_el_techo",
+    "name": "El Techo",
+    "neighborhood": "Shaw",
+    "quadrant": "NW",
+    "price": "$$$",
+    "tags": ["rooftop", "latin", "cocktails"],
+    "music": ["Latin", "DJ"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["date-night", "lively"],
+    "hours": {
+      "mon": [["17:00", "22:00"]],
+      "tue": [["17:00", "22:00"]],
+      "wed": [["17:00", "23:00"]],
+      "thu": [["17:00", "23:00"]],
+      "fri": [["16:00", "01:00"]],
+      "sat": [["12:00", "01:00"]],
+      "sun": [["12:00", "22:00"]]
+    },
+    "photos": [
+      "https://media.cntraveler.com/photos/60b57352437f4a1500a1b045/16:9/w_2560,c_limit/El%20Techo%20Rooftop_Violetta%20Markelou.jpg"
+    ],
+    "ratingHint": 4.11,
+    "reviewCountHint": 412,
+    "zipCode": "20001"
+  },
+  {
+    "objectID": "venue_smoke_and_mirrors",
+    "name": "Smoke & Mirrors",
+    "neighborhood": "Capitol Hill",
+    "quadrant": "SE",
+    "price": "$$$",
+    "tags": ["rooftop", "happy-hour", "views"],
+    "music": ["Lounge", "DJ"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["date-night", "lively"],
+    "hours": {
+      "mon": [["17:00", "22:00"]],
+      "tue": [["17:00", "22:00"]],
+      "wed": [["17:00", "23:00"]],
+      "thu": [["17:00", "23:00"]],
+      "fri": [["16:00", "01:00"]],
+      "sat": [["12:00", "01:00"]],
+      "sun": [["12:00", "22:00"]]
+    },
+    "photos": [
+      "https://resizer.otstatic.com/v3/photos/49906631-3?width=752&height=752&webp=true"
+    ],
+    "ratingHint": 4.02,
+    "reviewCountHint": 417,
+    "zipCode": "20003"
+  },
+  {
+    "objectID": "venue_graham_rooftop",
+    "name": "The Graham Rooftop",
+    "neighborhood": "Georgetown",
+    "quadrant": "NW",
+    "price": "$$$",
+    "tags": ["rooftop", "hotel-bar", "views"],
+    "music": ["Lounge", "DJ"],
+    "features": ["walk-in", "groups-ok"],
+    "vibes": ["date-night", "lively"],
+    "hours": {
+      "mon": [["17:00", "22:00"]],
+      "tue": [["17:00", "22:00"]],
+      "wed": [["17:00", "23:00"]],
+      "thu": [["17:00", "23:00"]],
+      "fri": [["16:00", "01:00"]],
+      "sat": [["12:00", "01:00"]],
+      "sun": [["12:00", "22:00"]]
+    },
+    "photos": [
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/54/36/8e/the-graham-georgetown.jpg?w=900&h=500&s=1"
+    ],
+    "ratingHint": 4.45,
+    "reviewCountHint": 102,
+    "zipCode": "20007"
+  }
+]

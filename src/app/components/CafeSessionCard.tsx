@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 
@@ -40,6 +41,9 @@ function formatTimeRange(start: string, end: string) {
 export function CafeSessionCard({ session }: { session: CafeSession }) {
   const dateLabel = formatDateLabel(session.date);
   const timeLabel = formatTimeRange(session.startTime, session.endTime);
+  const attendees = Array.isArray(session.attendees)
+    ? session.attendees
+    : JSON.parse(session.attendees);
 
   return (
     <article className="relative overflow-hidden rounded-2xl shadow-md border border-gray-200">
@@ -84,25 +88,25 @@ export function CafeSessionCard({ session }: { session: CafeSession }) {
 
         {/* Attendees row only */}
         <div className="mt-3 flex -space-x-2">
-          {session.attendees.map((a, i) => (
+          {attendees.map((attendee: any) => (
             <div
-              key={i}
+              key={attendee.name}
               className="relative group"
             >
               <img
-                src={a.profilePic}
-                alt={a.name}
+                src={attendee.profilePic}
+                alt={attendee.name}
                 className="w-9 h-9 rounded-full border-2 border-white object-cover shadow-sm"
               />
               {/* Tooltip on hover */}
               <span className="pointer-events-none absolute left-1/2 -translate-x-1/2 -bottom-8 whitespace-nowrap rounded-md  bg-[#C9A992] px-2 py-1 text-xs text-white opacity-0 group-hover:opacity-100 transition-opacity">
-                {a.name}
+                {attendee.name}
               </span>
             </div>
           ))}
         </div>
         <p className="mt-2 text-xs text-gray-500">
-          {session.attendees.length} attending
+          {attendees.length} attending
         </p>
       </div>
     </article>

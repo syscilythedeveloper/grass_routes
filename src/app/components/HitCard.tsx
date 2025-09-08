@@ -10,7 +10,7 @@ export default function HitCard({ hit }: { hit: any }) {
 
   const imageUrl = hit.photos?.[0];
   const displayVibes = Array.isArray(hit.vibes) ? hit.vibes.slice(0, 3) : [];
-  const locationText = [hit.neighborhood, hit.quadrant]
+  const locationText = ["Washington, DC", hit.zipCode]
     .filter(Boolean)
     .join(" • ");
 
@@ -62,31 +62,27 @@ export default function HitCard({ hit }: { hit: any }) {
           )}
         </div>
 
-        {/* Meta Row */}
-        {locationText && (
-          <p className="text-gray-500 text-base line-clamp-1">{locationText}</p>
-        )}
-
-        {typeof hit.ratingHint === "number" && (
-          <div className="flex items-center gap-2 mt-1">
-            ⭐️
-            <span className="text-lg font-semibold text-gray-900">
-              {hit.ratingHint.toFixed(1)}
-            </span>
-            {typeof hit.reviewCountHint === "number" && (
-              <span className="text-base text-gray-500">
-                ({hit.reviewCountHint})
+        {/* Meta Row: Location left, rating far right */}
+        {(locationText || typeof hit.ratingHint === "number") && (
+          <div className="flex items-center justify-between mt-1">
+            {locationText && (
+              <span className="text-gray-500 text-base line-clamp-1">
+                {locationText}
               </span>
             )}
-          </div>
-        )}
-        {Array.isArray(hit.music) && hit.music.length > 0 && (
-          <div className="mt-2 flex items-center gap-2 text-sm text-gray-700">
-            <span className="opacity-80">🎵</span>
-            <span className="truncate">
-              {hit.music.slice(0, 3).join(" • ")}
-              {hit.music.length > 3 ? `  +${hit.music.length - 3}` : ""}
-            </span>
+            {typeof hit.ratingHint === "number" && (
+              <span className="flex items-center gap-1">
+                <span>⭐️</span>
+                <span className="text-lg font-semibold text-gray-900">
+                  {hit.ratingHint.toFixed(1)}
+                </span>
+                {typeof hit.reviewCountHint === "number" && (
+                  <span className="text-base text-gray-500">
+                    ({hit.reviewCountHint})
+                  </span>
+                )}
+              </span>
+            )}
           </div>
         )}
 
@@ -96,9 +92,9 @@ export default function HitCard({ hit }: { hit: any }) {
             onClick={handleCoffeeMeetUp}
             disabled={false}
             aria-label={`Create Link-Up for ${hit.name}`}
-            className="bg-green-600 text-white hover:shadow-lg hover:scale-105 active:scale-95 rounded-2xl px-5 py-2"
+            className="bg-[#8C6345] text-white hover:shadow-lg hover:scale-105 active:scale-95 rounded-2xl px-5 py-2"
           >
-            Create MeetUp
+            Create Coffee Meetup
           </button>
         </div>
       </div>
