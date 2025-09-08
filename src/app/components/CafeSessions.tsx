@@ -6,10 +6,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { CafeSessionCard } from "./CafeSessionCard";
-import { createClient } from "../utils/supabase/server";
-
-const supabase = await createClient();
-const { data: coffeeMeetups } = await supabase.from("coffee_meetups").select();
+import { coffeeMeetups } from "../utils/supabase/server";
 
 const CafeSessions = () => {
   return (
