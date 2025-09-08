@@ -6,4 +6,5 @@ export const supabase = createClient(
 
 export const { data: coffeeMeetups } = await supabase
   .from("coffee_meetups")
-  .select();
+  .select("*")
+  .order("date", { ascending: true });
