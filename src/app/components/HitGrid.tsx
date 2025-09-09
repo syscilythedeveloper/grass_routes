@@ -7,7 +7,7 @@ function HitGrid() {
   const { items } = useHits();
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full mx-2 pl-5 pr-5 mt-2">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-500 mx-auto pl-5 pr-5 mt-2 pt-5">
       {items.map((hit: any) => (
         <HitCard
           key={hit.objectID}
